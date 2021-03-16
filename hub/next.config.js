@@ -5,7 +5,7 @@ module.exports = {
     return [
       {
         source: "/2021",
-        destination: `${TWENTYTWENTYONE_URL}`
+        destination: `${TWENTYTWENTYONE_URL}/2021`
       },
     ];
   },
