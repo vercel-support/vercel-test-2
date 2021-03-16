@@ -4,8 +4,8 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/2021",
-        destination: `${TWENTYTWENTYONE_URL}/2021`
+        source: "/2021/:path*",
+        destination: `${TWENTYTWENTYONE_URL}/2021/:path*`
       },
     ];
   },
