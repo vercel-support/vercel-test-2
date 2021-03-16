@@ -1,5 +1,5 @@
 const TWENTYTWENTY_URL = "https://vercel-test-2020.vercel.app";
-const TWENTYTWENTYONE_URL = "https://vercel-test-2.vercel-support.app";
+const TWENTYTWENTYONE_URL = "https://vercel-test-2021.vercel-support.app";
 
 module.exports = {
   async rewrites() {
