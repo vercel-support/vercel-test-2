@@ -8,8 +8,8 @@ module.exports = {
         destination: '/:path*'
       },
       {
-        source: '/:path*',
-        destination: `${TWENTYTWENTYONE_URL}/:path*`
+        source: '/2021/:path*',
+        destination: `${TWENTYTWENTYONE_URL}/2021/:path*`
       },
     ];
   },
